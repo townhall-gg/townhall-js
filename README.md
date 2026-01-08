@@ -9,6 +9,12 @@ Official JavaScript/TypeScript SDK for [TownHall](https://townhall.gg) form subm
 | [`@townhall/core`](./packages/core) | Core TypeScript client | [![npm](https://img.shields.io/npm/v/@townhall/core)](https://www.npmjs.com/package/@townhall/core) |
 | [`@townhall/react`](./packages/react) | React hooks & components | [![npm](https://img.shields.io/npm/v/@townhall/react)](https://www.npmjs.com/package/@townhall/react) |
 
+## Examples
+
+| Example | Description |
+|---------|-------------|
+| [`nextjs-demo`](./examples/nextjs-demo) | Next.js 15 demo with contact and newsletter forms |
+
 ## Quick Start
 
 ### React
@@ -90,6 +96,10 @@ pnpm dev
 
 # Type checking
 pnpm typecheck
+
+# Run the demo
+cd examples/nextjs-demo
+pnpm dev
 ```
 
 ## Publishing
