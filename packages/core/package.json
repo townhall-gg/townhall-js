@@ -1,5 +1,5 @@
 {
-  "name": "@townhall/core",
+  "name": "@townhall-gg/core",
   "version": "0.1.0",
   "description": "Core TypeScript client for TownHall form submissions",
   "type": "module",

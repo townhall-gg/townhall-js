@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['@townhall/react', '@townhall/core'],
+  transpilePackages: ['@townhall-gg/react', '@townhall-gg/core'],
 }
 
 export default nextConfig

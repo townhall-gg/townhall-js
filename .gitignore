@@ -3,6 +3,7 @@ node_modules/
 
 # Build outputs
 dist/
+.next/
 *.tsbuildinfo
 
 # IDE
@@ -24,6 +25,7 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+.npmrc
 
 # Testing
 coverage/

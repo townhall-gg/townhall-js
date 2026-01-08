@@ -33,4 +33,4 @@ export {
   type TownHallConfig,
   type TownHallResponse,
   type FormData,
-} from '@townhall/core'
+} from '@townhall-gg/core'

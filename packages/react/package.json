@@ -1,5 +1,5 @@
 {
-  "name": "@townhall/react",
+  "name": "@townhall-gg/react",
   "version": "0.1.0",
   "description": "React hooks and components for TownHall form submissions",
   "type": "module",
@@ -51,7 +51,7 @@
     "react": ">=18.0.0"
   },
   "dependencies": {
-    "@townhall/core": "workspace:*"
+    "@townhall-gg/core": "^0.1.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.2",

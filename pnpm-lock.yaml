@@ -29,7 +29,7 @@ importers:
 
   examples/nextjs-demo:
     dependencies:
-      '@townhall/react':
+      '@townhall-gg/react':
         specifier: workspace:*
         version: link:../../packages/react
       next:
@@ -69,7 +69,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@townhall/core':
+      '@townhall-gg/core':
         specifier: workspace:*
         version: link:../core
     devDependencies:

@@ -1,5 +1,5 @@
 import { createContext, useContext, useMemo, type ReactNode } from 'react'
-import type { TownHallConfig } from '@townhall/core'
+import type { TownHallConfig } from '@townhall-gg/core'
 
 interface TownHallContextValue {
   config: TownHallConfig

@@ -5,7 +5,7 @@ import {
   type TownHallResponse,
   type TownHallError,
   type FormData,
-} from '@townhall/core'
+} from '@townhall-gg/core'
 
 /**
  * State returned by useTownHallForm hook

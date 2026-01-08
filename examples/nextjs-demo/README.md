@@ -1,6 +1,6 @@
 # TownHall React SDK Demo
 
-A Next.js demo application showcasing the `@townhall/react` SDK for form submissions.
+A Next.js demo application showcasing the `@townhall-gg/react` SDK for form submissions.
 
 ## Getting Started
 

@@ -1,15 +1,15 @@
-# @townhall/core
+# @townhall-gg/core
 
 Official TypeScript client for [TownHall](https://townhall.gg) form submissions.
 
 ## Installation
 
 ```bash
-npm install @townhall/core
+npm install @townhall-gg/core
 # or
-pnpm add @townhall/core
+pnpm add @townhall-gg/core
 # or
-yarn add @townhall/core
+yarn add @townhall-gg/core
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add @townhall/core
 ### Basic Usage
 
 ```ts
-import { createClient } from '@townhall/core'
+import { createClient } from '@townhall-gg/core'
 
 const client = createClient('your-form-id')
 
@@ -38,7 +38,7 @@ if (result.success) {
 ### One-off Submission
 
 ```ts
-import { submit } from '@townhall/core'
+import { submit } from '@townhall-gg/core'
 
 const result = await submit('your-form-id', {
   email: 'user@example.com',
@@ -49,7 +49,7 @@ const result = await submit('your-form-id', {
 ### Error Handling with Try/Catch
 
 ```ts
-import { createClient, TownHallError } from '@townhall/core'
+import { createClient, TownHallError } from '@townhall-gg/core'
 
 const client = createClient('your-form-id')
 

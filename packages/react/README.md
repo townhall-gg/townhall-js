@@ -1,15 +1,15 @@
-# @townhall/react
+# @townhall-gg/react
 
 React hooks and components for [TownHall](https://townhall.gg) form submissions.
 
 ## Installation
 
 ```bash
-npm install @townhall/react
+npm install @townhall-gg/react
 # or
-pnpm add @townhall/react
+pnpm add @townhall-gg/react
 # or
-yarn add @townhall/react
+yarn add @townhall-gg/react
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add @townhall/react
 ### Basic Form
 
 ```tsx
-import { useTownHallForm } from '@townhall/react'
+import { useTownHallForm } from '@townhall-gg/react'
 
 function ContactForm() {
   const { submit, isSubmitting, isSuccess, error } = useTownHallForm('your-form-id')
@@ -87,7 +87,7 @@ function NewsletterForm() {
 ### Global Configuration with Provider
 
 ```tsx
-import { TownHallProvider } from '@townhall/react'
+import { TownHallProvider } from '@townhall-gg/react'
 
 function App() {
   return (
@@ -106,7 +106,7 @@ function App() {
 Full TypeScript support with typed responses:
 
 ```tsx
-import { useTownHallForm, type TownHallResponse } from '@townhall/react'
+import { useTownHallForm, type TownHallResponse } from '@townhall-gg/react'
 
 function MyForm() {
   const { submit, data } = useTownHallForm('form-id')

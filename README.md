@@ -6,8 +6,8 @@ Official JavaScript/TypeScript SDK for [TownHall](https://townhall.gg) form subm
 
 | Package | Description | Version |
 |---------|-------------|---------|
-| [`@townhall/core`](./packages/core) | Core TypeScript client | [![npm](https://img.shields.io/npm/v/@townhall/core)](https://www.npmjs.com/package/@townhall/core) |
-| [`@townhall/react`](./packages/react) | React hooks & components | [![npm](https://img.shields.io/npm/v/@townhall/react)](https://www.npmjs.com/package/@townhall/react) |
+| [`@townhall-gg/core`](./packages/core) | Core TypeScript client | [![npm](https://img.shields.io/npm/v/@townhall-gg/core)](https://www.npmjs.com/package/@townhall-gg/core) |
+| [`@townhall-gg/react`](./packages/react) | React hooks & components | [![npm](https://img.shields.io/npm/v/@townhall-gg/react)](https://www.npmjs.com/package/@townhall-gg/react) |
 
 ## Examples
 
@@ -20,7 +20,7 @@ Official JavaScript/TypeScript SDK for [TownHall](https://townhall.gg) form subm
 ### React
 
 ```bash
-npm install @townhall/react
+npm install @townhall-gg/react
 ```
 
 ```tsx
@@ -53,7 +53,7 @@ function ContactForm() {
 ### Vanilla JavaScript/TypeScript
 
 ```bash
-npm install @townhall/core
+npm install @townhall-gg/core
 ```
 
 ```ts
@@ -78,7 +78,7 @@ if (result.success) {
 - **TypeScript first** - Full type safety with comprehensive types
 - **Tiny bundle** - No unnecessary dependencies
 - **Tree-shakeable** - Only import what you need
-- **Framework agnostic core** - Use with any framework via `@townhall/core`
+- **Framework agnostic core** - Use with any framework via `@townhall-gg/core`
 - **React hooks** - `useTownHallForm` with loading, error, and success states
 - **Error handling** - Typed errors with helpful properties (`isRateLimited`, `isNotFound`, etc.)
 

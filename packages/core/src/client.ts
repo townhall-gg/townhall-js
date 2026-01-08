@@ -16,7 +16,7 @@ const DEFAULT_TIMEOUT = 30000
  *
  * @example
  * ```ts
- * import { createClient } from '@townhall/core'
+ * import { createClient } from '@townhall-gg/core'
  *
  * const client = createClient('your-form-id')
  *
@@ -134,7 +134,7 @@ export function createClient(formId: string, config: TownHallConfig = {}) {
  *
  * @example
  * ```ts
- * import { submit } from '@townhall/core'
+ * import { submit } from '@townhall-gg/core'
  *
  * const result = await submit('your-form-id', {
  *   email: 'user@example.com',

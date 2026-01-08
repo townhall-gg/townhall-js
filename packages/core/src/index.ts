@@ -1,11 +1,11 @@
 /**
- * @townhall/core
+ * @townhall-gg/core
  *
  * Official TypeScript client for TownHall form submissions.
  *
  * @example
  * ```ts
- * import { createClient } from '@townhall/core'
+ * import { createClient } from '@townhall-gg/core'
  *
  * const client = createClient('your-form-id')
  * const result = await client.submit({ email: 'user@example.com' })

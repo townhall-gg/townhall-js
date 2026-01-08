@@ -1,6 +1,6 @@
 'use client'
 
-import { useTownHallForm } from '@townhall/react'
+import { useTownHallForm } from '@townhall-gg/react'
 
 // Demo form ID - replace with your own form ID
 const DEMO_FORM_ID = 'demo-form-id'
