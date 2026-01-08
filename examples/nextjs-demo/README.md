@@ -46,4 +46,4 @@ const DEMO_FORM_ID = 'your-actual-form-id'
 ## Learn More
 
 - [TownHall SDK Documentation](https://townhall.gg/docs/sdk)
-- [GitHub Repository](https://github.com/townhallgg/townhall-js)
+- [GitHub Repository](https://github.com/townhall-gg/townhall-js)

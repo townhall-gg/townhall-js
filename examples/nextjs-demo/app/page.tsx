@@ -32,7 +32,7 @@ export default function Home() {
       <footer className="footer">
         <p>
           Built with{' '}
-          <a href="https://github.com/townhallgg/townhall-js" target="_blank" rel="noopener">
+          <a href="https://github.com/townhall-gg/townhall-js" target="_blank" rel="noopener">
             @townhall/react
           </a>
           {' · '}

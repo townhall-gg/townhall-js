@@ -39,12 +39,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/townhallgg/townhall-js.git",
+    "url": "https://github.com/townhall-gg/townhall-js.git",
     "directory": "packages/core"
   },
   "homepage": "https://townhall.gg/docs",
   "bugs": {
-    "url": "https://github.com/townhallgg/townhall-js/issues"
+    "url": "https://github.com/townhall-gg/townhall-js/issues"
   },
   "devDependencies": {
     "rimraf": "^6.0.1",

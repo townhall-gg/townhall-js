@@ -5,7 +5,7 @@
   "description": "Official JavaScript/TypeScript SDK for TownHall form submissions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/townhallgg/townhall-js.git"
+    "url": "https://github.com/townhall-gg/townhall-js.git"
   },
   "author": "TownHall <hello@townhall.gg>",
   "license": "MIT",

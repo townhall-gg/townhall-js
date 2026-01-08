@@ -40,12 +40,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/townhallgg/townhall-js.git",
+    "url": "https://github.com/townhall-gg/townhall-js.git",
     "directory": "packages/react"
   },
   "homepage": "https://townhall.gg/docs",
   "bugs": {
-    "url": "https://github.com/townhallgg/townhall-js/issues"
+    "url": "https://github.com/townhall-gg/townhall-js/issues"
   },
   "peerDependencies": {
     "react": ">=18.0.0"
