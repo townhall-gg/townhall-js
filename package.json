@@ -1,0 +1,34 @@
+{
+  "name": "townhall-js",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Official JavaScript/TypeScript SDK for TownHall form submissions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/townhallgg/townhall-js.git"
+  },
+  "author": "TownHall <hello@townhall.gg>",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "lint": "eslint packages/*/src",
+    "typecheck": "pnpm -r typecheck",
+    "clean": "pnpm -r clean",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.10",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
