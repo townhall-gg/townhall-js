@@ -8,6 +8,7 @@ Official JavaScript/TypeScript SDK for [TownHall](https://townhall.gg) form subm
 |---------|-------------|---------|
 | [`@townhall-gg/core`](./packages/core) | Core TypeScript client | [![npm](https://img.shields.io/npm/v/@townhall-gg/core)](https://www.npmjs.com/package/@townhall-gg/core) |
 | [`@townhall-gg/react`](./packages/react) | React hooks & components | [![npm](https://img.shields.io/npm/v/@townhall-gg/react)](https://www.npmjs.com/package/@townhall-gg/react) |
+| [`@townhall-gg/cli`](./packages/cli) | Command-line interface | [![npm](https://img.shields.io/npm/v/@townhall-gg/cli)](https://www.npmjs.com/package/@townhall-gg/cli) |
 
 ## Examples
 
